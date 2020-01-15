@@ -11,6 +11,15 @@ git clone git@github.com:nomankabeer/square63test.git
 composer install
 php artisan serve
 
+# Set .env file
+write command in your terminal
+cp .env.example .env
+
+Copy following and past in your .env file
+OPEN_WEATHER_MAP_API_KEY=6103b0f582e78c7382bc6b0cdc06deb8
+FREE_LOCATION_API = http://ip-api.com/json/
+OPEN_WEATHER_MAP_API = http://api.openweathermap.org/data/2.5/weather?units=metric&
+
 # Run this test
 Go to browser
 
