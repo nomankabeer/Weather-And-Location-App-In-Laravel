@@ -18,7 +18,7 @@ class LocationAndWeatherService extends BaseService {
 
         // if ip address is incorrect then it will return error
         if($location == null || @$location->status == "fail"){
-            return array('status' => 'error' , 'message' => "Incorrect IP Address");
+            return array('status' => 'error' , 'message' => "Something went wrong");
         }
 
         $weatherURL = $this->openWeatherMapApi."q={$location->city},{$location->countryCode}&appid={$this->openWeatherMapApiKey}";
@@ -54,7 +54,7 @@ class LocationAndWeatherService extends BaseService {
 
         // if ip address is incorrect or if we do not get any response from api then it will return error
         if($location == null || @$location->status == "fail"){
-            return array('status' => 'error' , 'message' => "Incorrect IP Address");
+            return array('status' => 'error' , 'message' => "Something went wrong");
         }
 
         // format response of api results
