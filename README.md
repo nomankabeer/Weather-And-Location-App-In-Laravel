@@ -6,7 +6,7 @@
 Service Provider , Facade , Service Contailer , class binding ,  Api key and url configuration through .env file.
 
 # Clone This Test
-Run the followong Commands in terminal <br/>
+Run the following Commands in terminal <br/>
 git clone git@github.com:nomankabeer/square63test.git <br/>
 composer install <br/>
 php artisan serve <br/>
@@ -15,7 +15,7 @@ php artisan serve <br/>
 write command in your terminal <br/>
 cp .env.example .env <br/>
 
-Copy following and past in your .env file
+Copy following and past in your .env file <br/>
 OPEN_WEATHER_MAP_API_KEY=6103b0f582e78c7382bc6b0cdc06deb8 <br/>
 FREE_LOCATION_API = http://ip-api.com/json/ <br/>
 OPEN_WEATHER_MAP_API = http://api.openweathermap.org/data/2.5/weather?units=metric& <br/>
