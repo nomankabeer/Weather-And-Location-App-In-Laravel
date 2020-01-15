@@ -6,10 +6,10 @@
 Service Provider , Facade , Service Contailer , class binding ,  Api key and url configuration through .env file.
 
 # Clone This Test
-Run the followong Commands in terminal
-git clone git@github.com:nomankabeer/square63test.git
-composer install
-php artisan serve
+Run the followong Commands in terminal <br/>
+git clone git@github.com:nomankabeer/square63test.git <br/>
+composer install <br/>
+php artisan serve <br/>
 
 # Set .env file
 write command in your terminal
