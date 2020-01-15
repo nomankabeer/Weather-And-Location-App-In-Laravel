@@ -7,7 +7,7 @@ Service Provider , Facade , Service Contailer , class binding ,  Api key and url
 
 # Clone This Test
 Run the following Commands in terminal <br/>
-git clone git@github.com:nomankabeer/square63test.git <br/>
+git clone https://github.com/nomankabeer/square63test.git <br/>
 composer install <br/>
 
 
