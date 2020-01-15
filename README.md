@@ -27,3 +27,15 @@ Go to browser <br/>
 2)http://127.0.0.1:8000/api/location/110.37.200.34 <br/>
 3)http://127.0.0.1:8000/api/weather <br/>
 4)http://127.0.0.1:8000/api/weather/110.37.200.34 <br/>
+
+
+# Worked on follwing files.
+
+routes\api.php <br/>
+App\Http\Controllers\Api\LocationController <br/>
+App\Http\Controllers\Api\LocationController <br/>
+App\Facades\LocationAndWeatherFacade  <br/>
+App\Providers\LocationAndWeatherServiceProvider  <br/>
+ App\Services\BaseService  <br/>
+ App\Services\LocationAndWeatherService<br/>
+  
