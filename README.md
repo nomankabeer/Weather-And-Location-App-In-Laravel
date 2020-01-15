@@ -21,7 +21,7 @@ FREE_LOCATION_API = http://ip-api.com/json/ <br/>
 OPEN_WEATHER_MAP_API = http://api.openweathermap.org/data/2.5/weather?units=metric& <br/>
 
 # Run this test
-Go to browser <br/>
+Go to browser or postman <br/>
 
 1)http://127.0.0.1:8000/api/location <br/>
 2)http://127.0.0.1:8000/api/location/110.37.200.34 <br/>
