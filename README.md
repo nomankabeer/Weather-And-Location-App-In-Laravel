@@ -1,4 +1,3 @@
-# square63test 
 # Weather And Location App
 # Test is done in Laravel
 
